@@ -1,5 +1,5 @@
 # OS-Labs
-Personal labs for the class CIIC4050 (Operating Systems) \
+Personal labs for the class CIIC4050 (Operating Systems)
 <table class="tg">
 <thead>
   <tr>
