@@ -1,0 +1,4 @@
+The first if conditional would be in case that the fork failed to create a child node 
+For the else if conditional, it creates a child process whose pid is 0 while the parent has the child's actual pid
+this part of the code would then be executed by the child process, which in this case would be to run the execlp method which then goes on to run the ps command and print on screen
+For the final else, the parent process executes this portion since the previous conditionals were for the child processes due to said conditionals being focused on a pid of 0 for the child or a negative value for a child not created. So, the parent process would just exit.

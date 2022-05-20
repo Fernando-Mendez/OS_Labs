@@ -1,0 +1,1 @@
+Because when the child process reached the execlp funcion it's address space is overwritten by the executable commands and then runs and exits it, thus anything below the function is not executed since the child process has terminated.
