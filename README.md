@@ -13,6 +13,10 @@ Personal labs for the class CIIC4050 (Operating Systems)
     <td class="tg-0lax">Introduction to C Programming</td>
   </tr>
   <tr>
+    <td class="tg-0lax">Minix Setup</td>
+    <td class="tg-0lax">Introduction to Minix</td>
+  </tr>
+  <tr>
     <td class="tg-0lax">Lab 2</td>
     <td class="tg-0lax">Signals, Processes, Sockets</td>
   </tr>
