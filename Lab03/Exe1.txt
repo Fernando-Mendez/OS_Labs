@@ -1,0 +1,15 @@
+1) divide the indices that are to be accessed on a global array evenly across all threads created
+
+2) Each thread will have an equal amount of terms that will be calculated, and whose partial sum will be stored in a global array.
+
+3) The runner function is used to calculate the indices to be assigned to the incoming thread and store the results of the terms calculated into a global array
+
+     indices = {} //local array to keep start and end index for the running thread
+
+     partial_sum = {} //global array for storing the partial sums of
+
+     indices = thread_indices(thread_id, number_terms, num_threads)//
+
+     partial_sum[thread_id] = pi_partial_terms(start_index, end_index)
+
+4) The race conditions are to be avoided by implementing a policy in which no thread may access memory outside of it's assigned range of indices. Shared memory may lead to incorrect calculations
