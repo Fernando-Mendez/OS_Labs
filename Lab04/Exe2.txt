@@ -1,0 +1,10 @@
+char mp_exitstatus 
+char mp_sigstatus
+pid_t mp_pid 
+int mp_parent
+int mp_tracer
+
+
+
+
+IN_USE

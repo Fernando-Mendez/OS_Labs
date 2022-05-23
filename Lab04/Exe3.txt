@@ -1,0 +1,10 @@
+- getpid: - Utiliza la implementación POSIC de getpid a la vez usando un wrapper para confirmar que existe el process. En el caso del proceso no existir devuelve un -1 así dejando saber que hay un error. 
+
+
+-getppid: - Utiliza la implementación POSIC de getpid a la vez usando un wrapper para confirmar que existe el parent process. En el caso del proceso no existir devuelve un -1 así dejando saber que hay un error.
+
+
+
+
+
+En ambas funciones se utiliza el valor del PID aunque de formas distintas. Para el parent se utiliza el m1_i2 y para el proceso actual se pasa m1_i1.
